@@ -20,7 +20,7 @@ if(head==0)
                 p2=p1->next;
                 for(j=0;j<c-1-i;j++)
                 {
-                        if(p1->percentage>p2->percentage)
+                        if(p1->percentage<p2->percentage)
                         {
                          t.rollno=p1->rollno;
                          strcpy(t.name,p1->name);
