@@ -10,7 +10,7 @@
           while(1)
           {
                   printf("enter your choice:\n");
-                  printf("a/A.add d/D.delete_roll p/P.display s/S.savefile c/C. count h/H.sort i/I.delete_all r/R. reverse v/V.search_node e/E.exit:\n");
+                  printf("a/A.add d/D.delete_roll p/P.display s/S.savefile c/C. count h/H.sort i/I.delete_all r/R. reverse v/V.modify_according to rollno e/E.exit:\n");
                   scanf(" %c",&op);
                   switch(op)
                   {
